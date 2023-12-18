@@ -15,5 +15,5 @@ To view the design mockup for this project, click on the following link:  [Desig
 
 1. Clone this repository to your computer.
 2. Use `npm install` or `yarn install` to install all project dependencies.
-3. Run the project with `npm start` or `yarn start`.
+3. Run the project with `npm run dev` or `yarn dev`.
 4. Open a web browser and go to `http://localhost:3000` to see my application.
