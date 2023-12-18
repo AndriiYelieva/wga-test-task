@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Clothing Store Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our Clothing Store Online project! This is a web application for an e-commerce platform where users can browse, search, and purchase a variety of clothing items. The project is built using React, TypeScript, JavaScript, SCSS, CSS, and HTML.
 
-Currently, two official plugins are available:
+## Demo link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view a live demo site at this link:  ([Clothing Store Online](https://andriiyelieva.github.io/wga-test-task/)).
 
-## Expanding the ESLint configuration
+ ## Design Mockup
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To view the design mockup for this project, click on the following link:  [Design Mockup](https://www.figma.com/file/4vbDQUj7q8rW6y4vtaLPgi/Fashion-Landing-Page-Template?type=design&node-id=1-3&mode=design&t=mEUggZWLEbG2InAJ-0).
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Launching the Project.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone this repository to your computer.
+2. Use `npm install` or `yarn install` to install all project dependencies.
+3. Run the project with `npm start` or `yarn start`.
+4. Open a web browser and go to `http://localhost:3000` to see my application.
