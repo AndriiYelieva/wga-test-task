@@ -1,0 +1,237 @@
+.footer {
+  position: relative;
+  height: 90vh;
+  background: #F2F8FC;
+
+  display: flex;
+  justify-content: space-around;
+
+  &__contacts {
+    margin-top: 115px;
+
+    &--logo {
+      display: flex;
+      border: none;
+      cursor: pointer;
+
+      width: 164px;
+      height: 42px;
+      margin-bottom: 20px;
+
+      background: none;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('../images/icons/LOGO.svg');
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    &--title {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0em;
+    }
+
+
+    &--wrapper {
+      display: flex;
+      align-items: center;
+      margin: 40px 0 16px;
+      text-decoration: none;
+    }
+
+    &--location {
+      margin-right: 30px;
+      height: 15px;
+      width: 15px;
+      background-image: url('../images/icons/location.svg');
+
+      &-title {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    &--communication {
+      display: flex;
+      flex-direction: column;
+
+      &-mail {
+        width: fit-content;
+        position: relative;
+        text-decoration: none;
+        margin-bottom: 4px;
+
+        &:hover {
+          color: orange;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #000;
+          transition: all 0.4s ease;
+        }
+
+        &:hover::after {
+          background-color: orange;
+        }
+      }
+
+      &-phone {
+        text-decoration: none;
+        margin-bottom: 26px;
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+
+    &--icons {
+      display: flex;
+    }
+
+    &--icon {
+      display: flex;
+      height: 20px;
+      width: 20px;
+      margin-right: 20px;
+
+      background: none;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+
+    &--facebook {
+      background-image: url('../images/icons/facebook.svg');
+    }
+
+    &--instagram {
+      background-image: url('../images/icons/instagram.svg');
+    }
+
+    &--x {
+      background-image: url('../images/icons/twitter-x.svg');
+    }
+
+    &--linkedin {
+      background-image: url('../images/icons/linkedin.svg');
+    }
+  }
+
+  &__navigation {
+    margin-top: 115px;
+
+    &--headline {
+      margin-bottom: 24px;
+    }
+
+    &--email {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 10px 24px;
+      margin-bottom: 70px;
+
+      background: #fff;
+      width: 532px;
+      height: 45px;
+      border-radius: 5px;
+    }
+
+    &--input {
+      border: none;
+      width: 80%;
+
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+
+    &--button {
+      cursor: pointer;
+      border: none;
+      background: none;
+
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: left;
+
+
+      &:hover {
+        color: orange;
+      }
+    }
+
+    &--links {
+      display: flex;
+    }
+
+    &--title {
+      margin-bottom: 28px;
+    }
+
+    &--link {
+      display: block;
+      text-decoration: none;
+      margin-bottom: 20px;
+
+      &:hover {
+        color: orange;
+      }
+    }
+
+    &--shop {
+      margin-right: 88px;
+    }
+
+    &--help {
+      margin-right: 88px;
+    }
+  }
+
+
+  &__rights {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0);
+
+    height: 10vh;
+    background: #E7F5F8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--title {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 23px;
+    }
+  }
+}

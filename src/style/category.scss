@@ -1,0 +1,56 @@
+.category {
+  margin: 0 auto 110px;
+  width: 1140px;
+
+
+  display: flex;
+  justify-content: space-between;
+
+  &__photos {
+    &--wrapper {
+      margin-top: 28px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__main {
+    position: relative;
+    width: 552px;
+    height: 574px;
+
+    &--photo {
+      height: auto;
+      display: block;
+    }
+
+    &--button {
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+
+      height: 35px;
+      width: 200px;
+      background: #fff;
+      border: none;
+      cursor: pointer;
+      z-index: 2;
+
+      &:hover {
+        background: gray;
+        color: yellow;
+      }
+    }
+  }
+
+  &__main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+  }
+}

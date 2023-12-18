@@ -1,0 +1,43 @@
+.techen {
+  height: 90vh;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/17_1.png');
+
+  &__content {
+    padding: 430px 0 0 230px;
+  }
+
+  &__description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__title {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__button {
+    border: none;
+    cursor: pointer;
+
+    color: #fff;
+    background: #22262A;
+    width: 210px;
+    height: 35px;
+
+    &:hover {
+      color: yellow;
+      background: gray;
+    }
+  }
+}
